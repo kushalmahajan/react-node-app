@@ -16,7 +16,7 @@ class App extends Component {
         return (
             <div className="App">
                 <img className="logo" src={logo} alt="Logo"/>
-                <h1>Users</h1>
+                <h1>Notes</h1>
                 {this.state.notes.map(note =>
                     <div key={note.id}>
                         <span>{note.title}</span>- <span>{note.text}</span>
